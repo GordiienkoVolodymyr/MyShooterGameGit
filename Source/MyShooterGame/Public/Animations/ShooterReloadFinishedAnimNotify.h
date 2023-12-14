@@ -1,0 +1,17 @@
+// MyShooterGame
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Animations/ShooterAnimNotify.h"
+#include "ShooterReloadFinishedAnimNotify.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class MYSHOOTERGAME_API UShooterReloadFinishedAnimNotify : public UShooterAnimNotify
+{
+	GENERATED_BODY()
+	
+};
